@@ -1,0 +1,255 @@
+html {
+    font-size: 16px;
+    background-color: #f8f9fa;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #333;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+
+header img {
+    height: 100%;
+    padding-left: 10px;
+}
+
+
+header h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/*navigation*/
+
+nav {
+    padding-right: 30px;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.navitem {
+    float: right;
+}
+
+li.navitem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navitem a:hover {
+    background-color: #111;
+}
+
+/*Main*/
+main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.banner {
+    height: 400px;
+    width: 100%;
+    padding-top: 70px;
+    background-image: url("phil-desforges-ow1mML1sOi0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.mission {
+    margin: auto;
+}
+
+.mission h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mission p {
+    padding-top: 15px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.staff-members h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+.Staff {
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.members {
+    padding: 5px;
+
+}
+
+.members img {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+
+.members .name {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.members span {
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.stock h2 {
+    padding-top: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+.car-collection {
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.car-collection {
+    padding: 5px;
+
+}
+
+.car img {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+
+.car span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* CSS for the footer */
+footer {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 0 20px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-contact {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contact li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-contact i {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
